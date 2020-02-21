@@ -7,7 +7,7 @@ const fieldSelectFile = document.querySelector('#field-select');
 const dropFile = document.querySelector('#drop-file');
 
 const loadImg = new LoadImg(blockImg, elError);
-const server = 'https://git.heroku.com/ahj-7-3.git';
+const server = 'https://ahj-7-3-3.herokuapp.com/';
 
 function loadFile(files) {
   for (const item of files) {
